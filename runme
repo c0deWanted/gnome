@@ -62,7 +62,6 @@ software_stage=(
     man-db
     man-pages
     mlocate
-    mousepad
     mpv
     ntp
     nss-mdns
@@ -257,8 +256,8 @@ if [[ $INST == "Y" || $INST == "y" ]]; then
 
     echo -e "$CNT - Setup GTK..."
     #gsettings set org.gnome.desktop.interface gtk-theme Sweet-Mars
-    #gsettings set org.gnome.desktop.interface icon-theme Nordzy-dark
-    #gsettings set org.gnome.desktop.interface cursor-theme Vimix-White
+    gsettings set org.gnome.desktop.interface icon-theme Fluent-dark
+    gsettings set org.gnome.desktop.interface cursor-theme Vimix-White
     #gsettings set org.gnome.desktop.interface font-name Noto-Sans
     #gsettings set org.gnome.desktop.interface document-font-name 'Noto Sans 22'
     #gsettings set org.gnome.desktop.interface font-name 'Noto Sans 22'
